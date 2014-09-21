@@ -9,7 +9,6 @@
 import UIKit
 import MobileCoreServices
 import MediaPlayer
-import AVFoundation
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UIAlertViewDelegate, UINavigationControllerDelegate{
         

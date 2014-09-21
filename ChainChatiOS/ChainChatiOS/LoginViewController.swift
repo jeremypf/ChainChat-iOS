@@ -16,6 +16,10 @@ class LoginViewController: UIViewController {
     var validLogin:Bool = false
     
     
+    @IBAction func unwindToLogin(segue:UIStoryboardSegue) {
+        password.text = ""
+        PFUser.logOut()
+    }
     
     
     

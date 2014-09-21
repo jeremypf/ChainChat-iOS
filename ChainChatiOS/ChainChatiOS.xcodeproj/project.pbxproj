@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1551EEAC19CD7F9900BCF1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEAB19CD7F9900BCF1F6 /* AppDelegate.swift */; };
+		1551EEAF19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEAD19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodeld */; };
+		1551EEB119CD7F9900BCF1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEB019CD7F9900BCF1F6 /* ViewController.swift */; };
+		1551EEB419CD7F9900BCF1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1551EEB219CD7F9900BCF1F6 /* Main.storyboard */; };
+		1551EEB619CD7F9900BCF1F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1551EEB519CD7F9900BCF1F6 /* Images.xcassets */; };
+		1551EEB919CD7F9900BCF1F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1551EEB719CD7F9900BCF1F6 /* LaunchScreen.xib */; };
+		1551EEC519CD7F9900BCF1F6 /* ChainChatiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEC419CD7F9900BCF1F6 /* ChainChatiOSTests.swift */; };
+		1551EECF19CD864900BCF1F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EECE19CD864900BCF1F6 /* CameraViewController.swift */; };
+		1551EED119CD8FB500BCF1F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EED019CD8FB500BCF1F6 /* MobileCoreServices.framework */; };
+		1551EED319CD9FCF00BCF1F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EED219CD9FCF00BCF1F6 /* AVFoundation.framework */; };
+		1551EED519CDAAD000BCF1F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EED419CDAAD000BCF1F6 /* LoginViewController.swift */; };
+		1551EED819CDB83C00BCF1F6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EED619CDB83C00BCF1F6 /* Bolts.framework */; };
+		1551EED919CDB83C00BCF1F6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EED719CDB83C00BCF1F6 /* Parse.framework */; };
+		1551EEDB19CDB8A600BCF1F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEDA19CDB8A600BCF1F6 /* AudioToolbox.framework */; };
+		1551EEDD19CDB8B200BCF1F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEDC19CDB8B200BCF1F6 /* CFNetwork.framework */; };
+		1551EEDF19CDB8BD00BCF1F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEDE19CDB8BD00BCF1F6 /* CoreGraphics.framework */; };
+		1551EEE119CDB8C500BCF1F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEE019CDB8C500BCF1F6 /* CoreLocation.framework */; };
+		1551EEE319CDB8D600BCF1F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEE219CDB8D600BCF1F6 /* libz.dylib */; };
+		1551EEE519CDB8EC00BCF1F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEE419CDB8EC00BCF1F6 /* QuartzCore.framework */; };
+		1551EEE719CDB8F300BCF1F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEE619CDB8F300BCF1F6 /* Security.framework */; };
+		1551EEE919CDB8FE00BCF1F6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEE819CDB8FE00BCF1F6 /* StoreKit.framework */; };
+		1551EEEB19CDB90D00BCF1F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551EEEA19CDB90D00BCF1F6 /* SystemConfiguration.framework */; };
+		1551EEF219CE822D00BCF1F6 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEF119CE822D00BCF1F6 /* NameTableViewCell.swift */; };
+		1551EEF419CE84A000BCF1F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551EEF319CE84A000BCF1F6 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1551EEBF19CD7F9900BCF1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1551EE9E19CD7F9900BCF1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551EEA519CD7F9900BCF1F6;
+			remoteInfo = ChainChatiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1551EEA619CD7F9900BCF1F6 /* ChainChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1551EEAA19CD7F9900BCF1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1551EEAB19CD7F9900BCF1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1551EEAE19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChainChatiOS.xcdatamodel; sourceTree = "<group>"; };
+		1551EEB019CD7F9900BCF1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1551EEB319CD7F9900BCF1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1551EEB519CD7F9900BCF1F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1551EEB819CD7F9900BCF1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1551EEBE19CD7F9900BCF1F6 /* ChainChatiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainChatiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1551EEC319CD7F9900BCF1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1551EEC419CD7F9900BCF1F6 /* ChainChatiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainChatiOSTests.swift; sourceTree = "<group>"; };
+		1551EECE19CD864900BCF1F6 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1551EED019CD8FB500BCF1F6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1551EED219CD9FCF00BCF1F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1551EED419CDAAD000BCF1F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1551EED619CDB83C00BCF1F6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1551EED719CDB83C00BCF1F6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1551EEDA19CDB8A600BCF1F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1551EEDC19CDB8B200BCF1F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1551EEDE19CDB8BD00BCF1F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1551EEE019CDB8C500BCF1F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1551EEE219CDB8D600BCF1F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1551EEE419CDB8EC00BCF1F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1551EEE619CDB8F300BCF1F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1551EEE819CDB8FE00BCF1F6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1551EEEA19CDB90D00BCF1F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1551EEEC19CDB9E000BCF1F6 /* ChainChatiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChainChatiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		1551EEF119CE822D00BCF1F6 /* NameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		1551EEF319CE84A000BCF1F6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1551EEA319CD7F9900BCF1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1551EEEB19CDB90D00BCF1F6 /* SystemConfiguration.framework in Frameworks */,
+				1551EEE919CDB8FE00BCF1F6 /* StoreKit.framework in Frameworks */,
+				1551EEE719CDB8F300BCF1F6 /* Security.framework in Frameworks */,
+				1551EEE519CDB8EC00BCF1F6 /* QuartzCore.framework in Frameworks */,
+				1551EEE319CDB8D600BCF1F6 /* libz.dylib in Frameworks */,
+				1551EEE119CDB8C500BCF1F6 /* CoreLocation.framework in Frameworks */,
+				1551EEDF19CDB8BD00BCF1F6 /* CoreGraphics.framework in Frameworks */,
+				1551EEDD19CDB8B200BCF1F6 /* CFNetwork.framework in Frameworks */,
+				1551EEDB19CDB8A600BCF1F6 /* AudioToolbox.framework in Frameworks */,
+				1551EED819CDB83C00BCF1F6 /* Bolts.framework in Frameworks */,
+				1551EED319CD9FCF00BCF1F6 /* AVFoundation.framework in Frameworks */,
+				1551EED919CDB83C00BCF1F6 /* Parse.framework in Frameworks */,
+				1551EED119CD8FB500BCF1F6 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1551EEBB19CD7F9900BCF1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1551EE9D19CD7F9900BCF1F6 = {
+			isa = PBXGroup;
+			children = (
+				1551EEEA19CDB90D00BCF1F6 /* SystemConfiguration.framework */,
+				1551EEE819CDB8FE00BCF1F6 /* StoreKit.framework */,
+				1551EEE619CDB8F300BCF1F6 /* Security.framework */,
+				1551EEE419CDB8EC00BCF1F6 /* QuartzCore.framework */,
+				1551EEE219CDB8D600BCF1F6 /* libz.dylib */,
+				1551EEE019CDB8C500BCF1F6 /* CoreLocation.framework */,
+				1551EEDE19CDB8BD00BCF1F6 /* CoreGraphics.framework */,
+				1551EEDC19CDB8B200BCF1F6 /* CFNetwork.framework */,
+				1551EEDA19CDB8A600BCF1F6 /* AudioToolbox.framework */,
+				1551EED619CDB83C00BCF1F6 /* Bolts.framework */,
+				1551EED719CDB83C00BCF1F6 /* Parse.framework */,
+				1551EED219CD9FCF00BCF1F6 /* AVFoundation.framework */,
+				1551EED019CD8FB500BCF1F6 /* MobileCoreServices.framework */,
+				1551EEA819CD7F9900BCF1F6 /* ChainChatiOS */,
+				1551EEC119CD7F9900BCF1F6 /* ChainChatiOSTests */,
+				1551EEA719CD7F9900BCF1F6 /* Products */,
+				1551EEEC19CDB9E000BCF1F6 /* ChainChatiOS-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		1551EEA719CD7F9900BCF1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1551EEA619CD7F9900BCF1F6 /* ChainChatiOS.app */,
+				1551EEBE19CD7F9900BCF1F6 /* ChainChatiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1551EEA819CD7F9900BCF1F6 /* ChainChatiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1551EEAB19CD7F9900BCF1F6 /* AppDelegate.swift */,
+				1551EEB019CD7F9900BCF1F6 /* ViewController.swift */,
+				1551EEB219CD7F9900BCF1F6 /* Main.storyboard */,
+				1551EEB519CD7F9900BCF1F6 /* Images.xcassets */,
+				1551EEB719CD7F9900BCF1F6 /* LaunchScreen.xib */,
+				1551EEAD19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodeld */,
+				1551EEA919CD7F9900BCF1F6 /* Supporting Files */,
+				1551EECE19CD864900BCF1F6 /* CameraViewController.swift */,
+				1551EED419CDAAD000BCF1F6 /* LoginViewController.swift */,
+				1551EEF119CE822D00BCF1F6 /* NameTableViewCell.swift */,
+				1551EEF319CE84A000BCF1F6 /* MainViewController.swift */,
+			);
+			path = ChainChatiOS;
+			sourceTree = "<group>";
+		};
+		1551EEA919CD7F9900BCF1F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1551EEAA19CD7F9900BCF1F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1551EEC119CD7F9900BCF1F6 /* ChainChatiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1551EEC419CD7F9900BCF1F6 /* ChainChatiOSTests.swift */,
+				1551EEC219CD7F9900BCF1F6 /* Supporting Files */,
+			);
+			path = ChainChatiOSTests;
+			sourceTree = "<group>";
+		};
+		1551EEC219CD7F9900BCF1F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1551EEC319CD7F9900BCF1F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1551EEA519CD7F9900BCF1F6 /* ChainChatiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1551EEC819CD7F9900BCF1F6 /* Build configuration list for PBXNativeTarget "ChainChatiOS" */;
+			buildPhases = (
+				1551EEA219CD7F9900BCF1F6 /* Sources */,
+				1551EEA319CD7F9900BCF1F6 /* Frameworks */,
+				1551EEA419CD7F9900BCF1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainChatiOS;
+			productName = ChainChatiOS;
+			productReference = 1551EEA619CD7F9900BCF1F6 /* ChainChatiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1551EEBD19CD7F9900BCF1F6 /* ChainChatiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1551EECB19CD7F9900BCF1F6 /* Build configuration list for PBXNativeTarget "ChainChatiOSTests" */;
+			buildPhases = (
+				1551EEBA19CD7F9900BCF1F6 /* Sources */,
+				1551EEBB19CD7F9900BCF1F6 /* Frameworks */,
+				1551EEBC19CD7F9900BCF1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1551EEC019CD7F9900BCF1F6 /* PBXTargetDependency */,
+			);
+			name = ChainChatiOSTests;
+			productName = ChainChatiOSTests;
+			productReference = 1551EEBE19CD7F9900BCF1F6 /* ChainChatiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1551EE9E19CD7F9900BCF1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jeremy Francispillai";
+				TargetAttributes = {
+					1551EEA519CD7F9900BCF1F6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3K8ZNR3479;
+					};
+					1551EEBD19CD7F9900BCF1F6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3K8ZNR3479;
+						TestTargetID = 1551EEA519CD7F9900BCF1F6;
+					};
+				};
+			};
+			buildConfigurationList = 1551EEA119CD7F9900BCF1F6 /* Build configuration list for PBXProject "ChainChatiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1551EE9D19CD7F9900BCF1F6;
+			productRefGroup = 1551EEA719CD7F9900BCF1F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1551EEA519CD7F9900BCF1F6 /* ChainChatiOS */,
+				1551EEBD19CD7F9900BCF1F6 /* ChainChatiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1551EEA419CD7F9900BCF1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1551EEB419CD7F9900BCF1F6 /* Main.storyboard in Resources */,
+				1551EEB919CD7F9900BCF1F6 /* LaunchScreen.xib in Resources */,
+				1551EEB619CD7F9900BCF1F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1551EEBC19CD7F9900BCF1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1551EEA219CD7F9900BCF1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1551EEF419CE84A000BCF1F6 /* MainViewController.swift in Sources */,
+				1551EEF219CE822D00BCF1F6 /* NameTableViewCell.swift in Sources */,
+				1551EEB119CD7F9900BCF1F6 /* ViewController.swift in Sources */,
+				1551EECF19CD864900BCF1F6 /* CameraViewController.swift in Sources */,
+				1551EEAC19CD7F9900BCF1F6 /* AppDelegate.swift in Sources */,
+				1551EED519CDAAD000BCF1F6 /* LoginViewController.swift in Sources */,
+				1551EEAF19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1551EEBA19CD7F9900BCF1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1551EEC519CD7F9900BCF1F6 /* ChainChatiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1551EEC019CD7F9900BCF1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1551EEA519CD7F9900BCF1F6 /* ChainChatiOS */;
+			targetProxy = 1551EEBF19CD7F9900BCF1F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1551EEB219CD7F9900BCF1F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1551EEB319CD7F9900BCF1F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1551EEB719CD7F9900BCF1F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1551EEB819CD7F9900BCF1F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1551EEC619CD7F9900BCF1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1551EEC719CD7F9900BCF1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1551EEC919CD7F9900BCF1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChainChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChainChatiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1551EECA19CD7F9900BCF1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChainChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChainChatiOS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1551EECC19CD7F9900BCF1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChainChatiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainChatiOS.app/ChainChatiOS";
+			};
+			name = Debug;
+		};
+		1551EECD19CD7F9900BCF1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChainChatiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainChatiOS.app/ChainChatiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1551EEA119CD7F9900BCF1F6 /* Build configuration list for PBXProject "ChainChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1551EEC619CD7F9900BCF1F6 /* Debug */,
+				1551EEC719CD7F9900BCF1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1551EEC819CD7F9900BCF1F6 /* Build configuration list for PBXNativeTarget "ChainChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1551EEC919CD7F9900BCF1F6 /* Debug */,
+				1551EECA19CD7F9900BCF1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1551EECB19CD7F9900BCF1F6 /* Build configuration list for PBXNativeTarget "ChainChatiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1551EECC19CD7F9900BCF1F6 /* Debug */,
+				1551EECD19CD7F9900BCF1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1551EEAD19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1551EEAE19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodel */,
+			);
+			currentVersion = 1551EEAE19CD7F9900BCF1F6 /* ChainChatiOS.xcdatamodel */;
+			path = ChainChatiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1551EE9E19CD7F9900BCF1F6 /* Project object */;
+}
